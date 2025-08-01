@@ -1,14 +1,15 @@
-# 💼 Personal Developer Portfolio
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6925a40e-1205-44b8-8fd4-99bf1ab54ef8" /># 💼 Personal Developer Portfolio
 
 A sleek, dark-themed animated portfolio built with **React + Vite + Tailwind CSS** to showcase my development projects, skills, and experience.
 
-![Portfolio Screenshot](./public/portfolio-preview.png)
+![Portfolio Screenshot](![Uploading Screenshot (988).png…]()
+)
 
 ---
 
 ## 🔗 Live Demo
 
-👉 [View Portfolio Live](https://your-portfolio-link.vercel.app)
+👉 [View Portfolio Live](https://portfolio-seven-59.vercel.app/)
 
 ---
 
