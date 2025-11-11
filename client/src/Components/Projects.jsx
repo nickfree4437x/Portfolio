@@ -11,6 +11,21 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "AstroHub",
+      description: "AstroHub —an Interactive Space Exploration and Analysis Platform that transforms raw, scattered space data into an engaging, unified, and educational experience for everyone.",
+      tech: ["React", "Node.js / Express", "Tailwind CSS", "Gemini API", "MongoDB", "Three.js", "REST APIs", "Framer Motion", "UI/UX Design"],
+      image: "/projects/astrohub.png",
+      github: "https://github.com/nickfree4437x/astrohub",  // change if different
+      demo: "https://astrohub-delta.vercel.app/",                  // change if different
+      features: [
+        "Interactive 3D solar system visualization with real-time space data",
+        "Planet & exoplanet insights with visuals and scientific stats",
+        "Life-support score ranking system for exoplanets",
+        "Astronaut profiles with mission highlights",
+        "Earth vs. other planets comparison view"
+      ]
+    },
+    {
       title: "AttendMaster",
       description: "Smart attendance management system with real-time dashboard and comprehensive analytics.",
       tech: ["React", "Firebase", "Tailwind CSS", "Chart.js"],
@@ -93,6 +108,36 @@ const Projects = () => {
         "Portfolio simulation",
         "Historical data analysis"
       ]
+    },
+     {
+      title: "TaskFlow Board",
+      description: "Real-time collaborative task board with drag-and-drop task management and assignments.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Tailwind CSS"],
+      image: "/projects/taskflow.png",
+      github: "https://github.com/nickfree4437x/to-do-borad",
+      demo: "https://to-do-borad.vercel.app/",
+      features: [
+        "Real-time task updates using WebSockets",
+        "Drag-and-drop task management (Kanban)",
+        "Assign tasks to specific users",
+        "Activity log & status tracking",
+        "User authentication and role access"
+      ]
+    },
+    {
+      title: "SwiftLink",
+      description: "A fast and secure URL shortener with real-time analytics and QR code generation.",
+      tech: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
+      image: "/projects/swiftlink.png",
+      github: "https://github.com/nickfree4437x/url-shortener",
+      demo: "https://url-shortener-kappa-two.vercel.app/",
+      features: [
+        "Generate short URLs instantly",
+        "Track clicks with real-time analytics",
+        "Auto QR code for each shortened link",
+        "Custom alias & expiration options",
+        "Password-protected links for privacy"
+      ]
     }
   ];
 
@@ -131,14 +176,14 @@ const Projects = () => {
       tech: ["React.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB"],
       image: "/projects/leaderboard.png",
       github: "https://github.com/nickfree4437x/leaderboard-system",
-      demo: "https://lead-manager-delta.vercel.app",
+      demo: "https://leaderboard-system-beta.vercel.app",
       features: [
         "Secure login/signup with JWT",
         "Passwords hashed using bcrypt",
         "Messages delivered instantly using Socket.io",
         "Users can see if their message has been viewed"
       ]
-    }
+    },
   ];
 
   const visibleProjects = showAll ? [...projects, ...moreProjects] : projects;
